@@ -1,0 +1,143 @@
+.navbar {
+    background-color: black;
+    padding-left: 20px;
+}
+
+body {
+    padding-top: 5rem;
+    background-color: black;
+}
+
+.starter-template {
+    padding: 1rem 1rem;
+    
+}
+
+.bg-dark{
+    background-color:#3B5998!important;
+}
+
+.description-title {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    color: white;
+}
+
+.options {
+    color: white;
+}
+
+#ver-mas, #eliminar {
+    color: red;
+}
+
+#publication-description {
+    padding: 10px 0px 0px 20px;
+}
+
+#publication-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    width: 100%;
+    height: 190px;
+    color: white;
+    font-size: bold;
+}
+
+#publication-header-principal {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    width: 100%;
+    height: 330px;
+    color: white;
+    font-size: bold;
+}
+
+
+#form-login{
+    margin-left:auto;
+}
+
+#form-login input[type="text"], #form-login input[type="password"]{
+    font-size:11px;
+}
+
+#form-login .btn-primary{
+    font-size:11px;
+    background-color:#8b8888;
+    border-color:#8b8888;
+
+}
+
+#form-movie{
+    width: 421px;
+    background-color: #504e4eb3;
+    border-radius: 8px;
+    height: 360px;
+    padding: 40px 60px 40px 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#form-movie h1 {
+    /*font-family: FuenteExotica, 'Helvetica Neue',Helvetica,Arial,sans-serif;*/
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+#form-movie input[type="text"], #form-movie input[type="password"]{
+    background-color: white;
+    border-width: 0;
+    width: 100%;
+    font-size: 1.15em;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;/*Incluyen el padding y el borde en el ancho del input para que no se pase*/
+}
+
+
+#form-movie input[type="button"]{
+    background-color: #E50914;
+    width: 100%;
+    border: 0;
+    padding: 17px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+/*Aplicar un color de fondo diferente para inputs del tipo button
+y unicamente cuando se pase el cursor sobre el, el input
+debe estar dentro de una etiqueta con el id formulario-login*/
+#form-movie input[type="button"]:hover{
+    background-color: rgb(97, 2, 7);
+}
+
+#form-movie a{
+    color:#dbdbdb;
+    font-size:15px;
+    text-decoration: none; /*underline es subrayado*/
+}
+
+
+#form-movie a:hover{
+    text-decoration: underline;
+    color:#E50914;
+}
+
+
+
+@media only screen and (max-width:576px){
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
