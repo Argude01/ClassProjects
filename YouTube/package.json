@@ -1,0 +1,22 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "This is a class project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Argude01/ClassProjects.git"
+  },
+  "author": "Argude01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Argude01/ClassProjects/issues"
+  },
+  "homepage": "https://github.com/Argude01/ClassProjects#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
